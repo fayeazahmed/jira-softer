@@ -82,7 +82,7 @@ const Boards = ({ match, user, setNotification }) => {
 							onSubmit={handleSubmit}
 							onMouseDown={(e) => e.stopPropagation()}
 						>
-							<img src={`${process.env.PUBLIC_URL}/sprint-completed.png`} alt="sprint completed" />
+							<img src={`${process.env.PUBLIC_URL}/sprint-completed.PNG`} alt="sprint completed" />
 							<div className="p-4">
 								<h4>Complete {sprint?.title}</h4>
 								<p>This sprint contains:</p>

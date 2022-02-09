@@ -10,7 +10,7 @@ const memberStyles = {
 const TeamLoader = () => {
     return (
         <div className="team-loader">
-            <img src={`${process.env.PUBLIC_URL}/teambg.png`} className="team__header" alt="teambackground" />
+            <img src={`${process.env.PUBLIC_URL}/teambg.PNG`} className="team__header" alt="teambackground" />
             <div style={{ width: 810 }} className="container d-flex mt-3">
                 <div className="team__info">
                     <div className="team__inputs"><input style={{ backgroundColor: "rgb(235, 236, 240)" }} /></div>

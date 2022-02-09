@@ -66,7 +66,7 @@ const CreateTeam = ({ user, issueCreated }) => {
             <div>
                 <h2>Start a new team</h2>
                 <div className="create-team__main">
-                    <img src={`${process.env.PUBLIC_URL}/create-team.png`} alt="createteam" />
+                    <img src={`${process.env.PUBLIC_URL}/create-team.PNG`} alt="createteam" />
                     <form onSubmit={handleSubmit}>
                         <p>Get everyone working in one place by adding them to a team.</p>
                         <label className="text-secondary" htmlFor="teamName">Team Name</label>

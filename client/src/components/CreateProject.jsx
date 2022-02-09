@@ -49,7 +49,7 @@ const CreateProject = ({ issueCreated }) => {
 					</div>
 					<h5 className="mt-4">Type</h5>
 					<div className="d-flex align-items-center">
-						<img src={`${process.env.PUBLIC_URL}/team.png`} alt="team" />
+						<img src={`${process.env.PUBLIC_URL}/team.PNG`} alt="team" />
 						<div className="ms-2">
 							<p><strong>Team-managed</strong></p>
 							<p>Control your own working processes and practices in a self-contained space.</p>
