@@ -6,7 +6,9 @@ const path = require("path")
 const app = express();
 app.use(express.json());
 app.use(cors());
-require('dotenv').config()
+
+if(process.env.NODE_ENV == "development")
+    require('dotenv').config()
 
 // Connect to MongoDB Atlas
 mongoose.connect(
