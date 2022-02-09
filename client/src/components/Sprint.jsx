@@ -204,7 +204,7 @@ const Sprint = ({ issues, sprint, index, completeSprint, isLead }) => {
 						onSubmit={(e) => activateSprint(e, false)}
 						onMouseDown={(e) => e.stopPropagation()}
 					>
-						<img src="/sprint-completed.png" alt="sprint completed" />
+						<img src={`${process.env.PUBLIC_URL}/sprint-completed.png`} alt="sprint completed" />
 						<div className="p-4">
 							<h4>Complete {title}</h4>
 							<p>This sprint contains:</p>

@@ -86,7 +86,7 @@ const ProjectSettings = ({ match, user }) => {
                 </div>}
                 <form onSubmit={updateProject}>
                     <div className="text-center">
-                        <img src="/flag.png" alt="flag" />
+                        <img src={`${process.env.PUBLIC_URL}/flag.png`} alt="flag" />
                     </div>
                     {
                         project && <><label className="text-secondary" htmlFor="projectName">Name</label>

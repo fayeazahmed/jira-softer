@@ -41,7 +41,7 @@ const CreateProject = ({ issueCreated }) => {
 				<div className="create-project__info">
 					<h5>Template</h5>
 					<div className="d-flex align-items-center">
-						<img src="nosprint.png" alt="scrum" />
+						<img src={`${process.env.PUBLIC_URL}/nosprint.png`} alt="scrum" />
 						<div className="ms-2">
 							<p><strong>Scrum</strong></p>
 							<p>Sprint toward your project goals with a board, backlog, and roadmap.</p>
@@ -49,7 +49,7 @@ const CreateProject = ({ issueCreated }) => {
 					</div>
 					<h5 className="mt-4">Type</h5>
 					<div className="d-flex align-items-center">
-						<img src="team.png" alt="team" />
+						<img src={`${process.env.PUBLIC_URL}/team.png`} alt="team" />
 						<div className="ms-2">
 							<p><strong>Team-managed</strong></p>
 							<p>Control your own working processes and practices in a self-contained space.</p>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Sidebar = ({ project, navigation }) => {
 	return <div className="sidebar">
 		<div className="sidebar__project">
-			<img src="/flag.png" height={24} width={24} alt="flag" />
+			<img src={`${process.env.PUBLIC_URL}/flag.png`} height={24} width={24} alt="flag" />
 			<div className="ms-2">
 				<h5>{project ? project.title : "Loading..."}</h5>
 				<p>Software project</p>
