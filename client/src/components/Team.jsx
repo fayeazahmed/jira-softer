@@ -203,7 +203,7 @@ const Team = ({ match, user }) => {
                     </form>
                 </div>
             )}
-            <img src={`${process.env.PUBLIC_URL}/teambg.png`} className="team__header" alt="teambackground" />
+            <img src={`${process.env.PUBLIC_URL}/teambg.PNG`} className="team__header" alt="teambackground" />
             <div className="container">
                 <div className="team__info">
                     <form onSubmit={e => updateTeam(e, "title")} className="team__inputs">
